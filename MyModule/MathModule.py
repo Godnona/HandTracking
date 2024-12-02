@@ -5,7 +5,7 @@ def sqrt(x):
     pass
 
 def hypotenuse(a, b):
-    return sqrt(a * a + b * b)
+    pass
 
 def main():
     pass
