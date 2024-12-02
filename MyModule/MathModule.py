@@ -1,5 +1,5 @@
 # mày code vào branch_write
-# code xong chạy ngon thì để im đấy để t đồng bộ code
+# code xong chạy ngon thì pull request đấy để t còn xem đc code m
 
 def sqrt(x):
     pass
