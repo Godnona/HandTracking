@@ -1,3 +1,4 @@
+print("hi")
 
 def main():
     pass
