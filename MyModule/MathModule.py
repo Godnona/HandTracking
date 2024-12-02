@@ -1,4 +1,4 @@
-print("hi")
+print("hello world")
 
 def main():
     pass
