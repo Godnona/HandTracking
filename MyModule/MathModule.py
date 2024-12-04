@@ -17,10 +17,10 @@ def hypotenuse(a, b):
 
 
 def main():
-    n = 100
-    while n != 0:
+    n = 1
+    while n <= 100:
         print(my_sqrt(n))
-        n -= 1
+        n += 1
 
 if __name__ == "__main__":
     main()
