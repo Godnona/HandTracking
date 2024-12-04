@@ -6,6 +6,7 @@ def my_abs(value):
 
 def my_sqrt(x):
     ok = 0.000000000000001
+
     kq = 1
     while my_abs(kq * kq - x) / x >= ok:
         kq = (x / kq + kq) / 2
@@ -14,7 +15,6 @@ def my_sqrt(x):
 def hypotenuse(a, b):
     c=a*a+b*b
     return  my_sqrt(c)
-
 
 def main():
     n = 1

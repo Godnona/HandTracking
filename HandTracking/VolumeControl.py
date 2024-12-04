@@ -1,5 +1,3 @@
-from sympy.physics.units import length
-
 from MyModule import HandTrackingModule as Htm
 from MyModule import MathModule as Math
 import cv2
@@ -40,8 +38,6 @@ while True:
         cv2.line(img, (x1, y1), (x2, y2), (0, 25, 255), 3)
 
         cv2.circle(img, (x0, y0), 10, (250, 0, 100), cv2.FILLED)
-
-        length = Math.hypotenuse(x2 - x1, y2 - y1)
 
 
     # Calculate fps
