@@ -10,7 +10,7 @@ def my_sqrt(x):
     if x == 0:
         return 0
 
-    ok = 0.0001
+    ok = 1e-12
     kq = x if x >= 1 else 1
     while abs(kq * kq - x) / x >= ok:
         kq = (x / kq + kq) / 2
@@ -23,6 +23,7 @@ def hypotenuse(a, b):
     pass
 
 def main():
+    print(my_sqrt(9))
     pass
 
 if __name__ == "__main__":
