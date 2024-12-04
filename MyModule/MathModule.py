@@ -5,9 +5,14 @@ def my_abs(value):
     return value if value >= 0 else -value
 
 def my_sqrt(x):
+    if x < 0:
+        return 0
+    if x == 0:
+        return 0
+
     ok = 0.0001
-    kq = 1
-    while my_abs(kq * kq - x) / x >= ok:
+    kq = x if x >= 1 else 1
+    while abs(kq * kq - x) / x >= ok:
         kq = (x / kq + kq) / 2
     return kq
 
